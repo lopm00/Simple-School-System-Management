@@ -37,7 +37,7 @@ class Administration() :
         ed = int(input("Entrer ID d'etudiant :"))   #1
         a = self.aj_et.index(ed) #0
         g = a + 3 #3
-        self.aj_et[a + 1] = input("entrer un nouveau nom :")
+        self.aj_et[a + 1] = input("entrer un nouveau nom :") 
         self.aj_et[a + 2] = input("entrer un nouveau class :")
         print (self.aj_et[a:g])
     #Parametre pour supprimer un etudiant
